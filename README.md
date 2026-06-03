@@ -34,3 +34,26 @@ An AI-powered RAG (Retrieval-Augmented Generation) application that allows stude
    pip install -r requirements.txt
 ```
 4. Add your Groq API key in `.env`
+5. 5. Run the app
+```bash
+   streamlit run app.py
+```
+
+## 📁 Project Structure
+
+smart_study_assistant/
+├── app.py              # Streamlit UI
+├── rag_pipeline.py     # RAG logic
+├── requirements.txt    # Dependencies
+├── .env                # API Key
+└── README.md           # This file
+
+## 👨‍💻 Built With
+
+- Python 3.10+
+- LangChain 0.2.x
+- Streamlit 1.x
+
+## 📌 Note
+
+This app uses only the content from the uploaded PDF to answer questions — ensuring accurate, hallucination-free responses.
